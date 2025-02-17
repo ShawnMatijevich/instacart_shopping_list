@@ -5,7 +5,18 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Lesson 1 - Ingredient List</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 20px; padding: 0px; background-color: #ffffff; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; }
+        body { 
+    font-family: Arial, sans-serif; 
+    margin: 0px; 
+    padding: 0px; 
+    background-color: #ffffff; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-start;  /* <-- Keeps content at the top */
+    height: auto;  /* <-- Avoid forcing full viewport height */
+}
+
         h1 { text-align: center; }
     </style>
     
@@ -26,7 +37,7 @@
             
 </head>
 <body>
-    <h1>Lesson 1 - Ingredient List</h1>
+
     
             <script>
                 (function (d, s, id, a) {
